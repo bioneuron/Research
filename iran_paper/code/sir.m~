@@ -1,0 +1,14 @@
+% sir.m 
+%
+function dx = sir(t, a, x, ft, f) 
+  %global beta epsilon recovery; 
+  q = interp1(ft, f, t);
+  dx = [0; 0; 0]; 
+  dx(1) = -a(4)* x(3) * x(1) * (1 + a(7)*q)./(1 - a(8)*x(3)); 
+  dx(2) = a(4)* x(3) * x(1) * (1 + a(7)*q)./(1 - a(8)*x(3)) - a(5) * x(2); 
+  dx(3) = a(5) * x(2) - a(6) * x(3);
+  
+  
+  
+  
+  
