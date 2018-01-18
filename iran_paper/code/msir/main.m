@@ -92,8 +92,8 @@ plot([y(2:end) ydata(2:end)]);
 yvals = y(2:end);
 xvals = ydata(2:end);
 
-%beta = x(4) ./ (1 -  x(7)*y(:,3)- x(8)*f');
-%plot(beta.*y(:,1)/x(6))
+%beta = a(3) * (1 - a(5) * precip - a(6) * temp);
+%plot(beta.*y(:,1)'/x(4))
 %plot(residual2)
 
 rmse = (sum((y(2:end) - ydata(2:end)).^2)/numel(y(2:end))) ^ 0.5;
