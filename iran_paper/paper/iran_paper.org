@@ -13,12 +13,24 @@
 
     We use weekly number of overal labratory confirmed influenza cases in Iran
  provided by WHO[?]. for two seasons 2013/14 and 2014/15, data has been gathered
-from [?].
-
- 
-
+from [?]. Also, climate data (Percepition, Temperature, and Specific Humidity) can
+be downloaded from ESRL NCEP/DOE Reanalysis data collection of NOAA National Centers
+for Environmental Predictions[??]. Latter, the the temporal scale is converted to 
+weekly one to be consistence with Influenza data.
+  
 
 *** Methodology
+
+    SIR is the backbone of Mathematical modeling of epidemic phenomena transmission.However,
+due to complex interaction nature of Influenza dynamics, the modified versions of classic
+nodels is necessary. Social and environmental factors are among such factors that affect
+the influenza virus behaviour. we aim to modify the SIR classic modell using climate factors and
+study their possible impact on model improvement. A classical SIR model are given in the
+following:
+
+SIR()
+
+where, S is suspectable population, I is infected cases, and R is number of removed individuals.
 
 
 
