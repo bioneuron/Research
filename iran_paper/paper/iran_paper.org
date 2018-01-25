@@ -1,0 +1,33 @@
+* Iran_Paper
+
+** Abstract
+
+
+** Introduction
+
+
+** Materials and Methods
+
+
+*** Data
+
+    We use weekly number of overal labratory confirmed influenza cases in Iran
+ provided by WHO[?]. for two seasons 2013/14 and 2014/15, data has been gathered
+from [?].
+
+ 
+
+
+*** Methodology
+
+
+
+** Results
+
+
+** Discussion
+
+
+** References
+
+
