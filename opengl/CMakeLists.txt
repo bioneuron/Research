@@ -23,7 +23,7 @@ link_libraries(${GLUT_LIBRARIES})
 
 
 
-add_executable(main examples/reflectdino.c) 
+add_executable(main examples/stars.c) 
 target_link_libraries(main -lm -lglut -lGLU -lGL -lX11 -lXi -lXrandr 
                   -lXxf86vm -lXinerama -lXcursor -pthread -ldl)
 
